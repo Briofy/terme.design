@@ -8,7 +8,7 @@
           Designed for Serious Financial Netizens like You
         </h2>
         <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-          Here at Trader4 we focus on markets where technology, innovation, and
+          Here at Terme design we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
       </div>
@@ -27,13 +27,13 @@
               width="70"
               class="block dark:hidden"
               src="/img/logo-plain.svg"
-              alt="Trader4 Logo"
+              alt="Terme design Logo"
             />
             <img
               width="70"
               class="hidden dark:block"
               src="/img/logo-plain-dark.svg"
-              alt="Trader4 Logo"
+              alt="Terme design Logo"
             />
             Enterprise
           </div>

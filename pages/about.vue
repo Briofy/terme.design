@@ -7,7 +7,7 @@
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
         >
-          Trader4, Trade Together
+          Terme design, Trade Together
         </h1>
         <p
           class="mb-8 text-lg font-normal text-gray-500 lg:mb-12 lg:text-xl dark:text-gray-400"
@@ -16,7 +16,7 @@
           <span class="font-medium text-gray-900 dark:text-white">+4K</span>
           netizens and
           <span class="font-medium text-gray-900 dark:text-white">+85K</span>
-          models, algorithms, risk programs on Trader4
+          models, algorithms, risk programs on Terme design
         </p>
       </div>
       <div
@@ -75,10 +75,10 @@
           In the depths of the university's AI lab, a group of students had a
           revolutionary idea. They realized that the trading industry was in
           dire need of automation and decided to create their own trading
-          software. Thus, Trader4 was born.The team worked tirelessly day and
-          night, fueled by their passion for innovation and their desire to make
-          a mark in the industry. They poured their hearts and souls into the
-          project, fine-tuning the software until it was ready for release.
+          software. Thus, Terme design was born.The team worked tirelessly day
+          and night, fueled by their passion for innovation and their desire to
+          make a mark in the industry. They poured their hearts and souls into
+          the project, fine-tuning the software until it was ready for release.
 
           <span v-if="readMoreStatus">
             <br />
@@ -89,13 +89,13 @@
             potential to revolutionize the industry.
             <br />
             Finally, after 5 years of hard work and dedication, we launched
-            Trader4. The software was an instant hit, and traders from all over
-            the world flocked to it.
+            Terme design. The software was an instant hit, and traders from all
+            over the world flocked to it.
             <br />
-            Today, Trader4 is a global brand, with three major offices around
-            the world. We proud of what we have achieved, and we continue to
-            work tirelessly to improve our product and deliver great experience
-            of financial markets.
+            Today, Terme design is a global brand, with three major offices
+            around the world. We proud of what we have achieved, and we continue
+            to work tirelessly to improve our product and deliver great
+            experience of financial markets.
             <br />
             Looking back, they realize that their success was not just due to
             their technical skills, but also their determination and passion.
@@ -278,7 +278,7 @@
               </linearGradient>
             </defs>
           </svg>
-          <span class="w-full">Explore Trader4 Open Positions</span>
+          <span class="w-full">Explore Terme design Open Positions</span>
           <svg
             class="ml-3 w-6 h-6"
             fill="currentColor"

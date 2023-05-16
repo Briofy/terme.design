@@ -90,7 +90,7 @@ export default defineAppConfig({
       hideEmailBox: false,
       emailAPI: "https://api.briofy.net/api/Email/ContactUs",
       copyRight: `<span>© 2017-2023
-                          <a href="https://trader4.net" class="hover:underline">Trader4</a>.
+                          <a href="https://Terme design.net" class="hover:underline">Terme design</a>.
                           All Rights Reserved.</span
                         >`,
       partOf: `<p>
@@ -165,7 +165,7 @@ export default defineAppConfig({
             { title: "API Docs", link: "/docs/api" },
             {
               title: "Status System",
-              link: "https://status.trader4.net",
+              link: "https://status.Terme design.net",
               target: "_blank",
             },
             { title: "Use Cases", link: "/use-cases" },
@@ -182,7 +182,7 @@ export default defineAppConfig({
             { title: "Think and Grow Rich", link: "/think-and-grow-rich" },
             { title: "Rich Dad Poor Dad", link: "/rich-dad-poor-dad" },
             { title: "Open Source", link: "/open-source" },
-            { title: "#trader4", link: "/hashtag-trader4" },
+            { title: "#Terme design", link: "/hashtag-Terme design" },
             { title: "Bug Bounty", link: "/bug-bounty" },
             { title: "Disclaimer", link: "/disclaimer" },
             { title: "CSR", link: "/csr" },

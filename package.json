@@ -1,8 +1,8 @@
 {
-  "name": "trader4-landing-app",
+  "name": "Terme design-landing-app",
   "private": true,
   "version": "1.0.0-alpha.4",
-  "author": "trader4",
+  "author": "Terme design",
   "scripts": {
     "build": "npm run build-submodules && nuxt build",
     "dev": "nuxt dev",
