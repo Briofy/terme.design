@@ -49,7 +49,7 @@ export default defineAppConfig({
         { title: "Pricing", link: "/pricing" },
         { title: "Help", link: "/help" },
       ],
-      megaMenu: true,
+      megaMenu: false,
       hideSearchBar: false,
       hideLanguageSelector: false,
       languageList: [
