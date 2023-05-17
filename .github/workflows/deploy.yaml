@@ -10,7 +10,7 @@ env:
   RELEASE_NAME: briofy-terme
   RELEASE_NAMESPACE: briofy-terme
   RELEASE_DOMAIN: terme.design
-  NEXT_RELEASE_DOMAIN: next.terme.design
+  NEXT_RELEASE_DOMAIN: terme.design
 
 jobs:
   lint:
@@ -117,7 +117,7 @@ jobs:
               --set tls.clusterIssuer="cf-letsencrypt" \
               --set tls.secretName="${{ env.BRANCH_NAME }}-${{ env.RELEASE_NAME }}-net-tls" \
               --create-namespace \
-              --atomic \
+              #--atomic \
               .ci/chart
           kubeconfig: '${{ secrets.KUBECONFIG }}'
 
