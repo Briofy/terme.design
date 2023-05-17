@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies.
-RUN npm ci
+RUN npm install 
 
 # Necessary to run before adding application code to leverage Docker cache
 RUN npm cache clean --force

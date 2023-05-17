@@ -1,0 +1,21 @@
+name: "briofy-terme"
+replicaCount: 1
+
+ingressController: nginx
+
+service:
+  type: ClusterIP
+
+domainName: "terme.design"
+
+tls:
+  enabled: false
+  secretName: briofy-terme-wildcard-tls
+
+image:
+  repository: "briofy.{{ .Values.name }}-docs"
+  pullPolicy: Always
+  tag: latest
+
+resources: {}
+tolerations: {}
