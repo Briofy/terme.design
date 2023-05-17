@@ -117,7 +117,6 @@ jobs:
               --set tls.clusterIssuer="cf-letsencrypt" \
               --set tls.secretName="${{ env.BRANCH_NAME }}-${{ env.RELEASE_NAME }}-net-tls" \
               --create-namespace \
-              #--atomic \
               .ci/chart
           kubeconfig: '${{ secrets.KUBECONFIG }}'
 
