@@ -727,6 +727,7 @@ onMounted(() => {
     onShow: () => {},
   };
 
+  // @ts-ignore
   const tabs = new Tabs(tabElements, options);
 });
 </script>
