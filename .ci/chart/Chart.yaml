@@ -1,6 +1,6 @@
 apiVersion: v2
 appVersion: 0.0.1
-name: Briofy-terme
+name: briofy-terme
 version: 0.0.1
 description: A helm chart for terme.design project
 home: https://github.com/Briofy/terme.design
