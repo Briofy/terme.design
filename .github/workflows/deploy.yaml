@@ -11,7 +11,7 @@ env:
   RELEASE_NAME: briofy-terme
   RELEASE_NAMESPACE: briofy-terme
   RELEASE_DOMAIN: terme.design
-  NEXT_RELEASE_DOMAIN: next.terme.design
+  NEXT_RELEASE_DOMAIN: terme.design
 
 jobs:
   lint:
