@@ -4,7 +4,7 @@ replicaCount: 1
 ingressController: nginx
 
 service:
-  type: ClusterIP
+  type: NodePort
 
 domainName: "terme.design"
 
