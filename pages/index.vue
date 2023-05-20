@@ -54,6 +54,254 @@
     </div>
   </section>
 
+  <section class="bg-white dark:bg-gray-900 mb-5">
+    <div
+      class="gap-16 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-3 lg:py-16 lg:px-6"
+    >
+      <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+        <ul
+          class="block mb-3 space-y-4 sm:flex sm:space-y-0 lg:space-y-4 lg:block"
+          id="testimonialTab"
+          role="tablist"
+        >
+          <li class="md:mr-2 lg:mr-0" role="presentation">
+            <button
+              class="p-4 w-full rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              id="testimonial-1-tab"
+              type="button"
+              role="tab"
+              aria-controls="testimonial-1"
+              aria-selected="true"
+            >
+              <figcaption class="space-y-2">
+                <div class="flex space-x-2.5">
+                  <img
+                    class="w-6 h-6 rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                    alt="profile picture"
+                  />
+                  <div
+                    class="text-lg font-semibold text-gray-900 dark:text-white"
+                  >
+                    Michael Gough
+                  </div>
+                </div>
+                <div
+                  class="text-sm font-light text-left text-gray-500 dark:text-gray-400"
+                >
+                  Web developer at Google
+                </div>
+              </figcaption>
+            </button>
+          </li>
+          <li class="md:mr-2 lg:mr-0" role="presentation">
+            <button
+              class="p-4 w-full rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              id="testimonial-2-tab"
+              type="button"
+              role="tab"
+              aria-controls="testimonial-2"
+              aria-selected="false"
+            >
+              <figcaption class="space-y-2">
+                <div class="flex space-x-2.5">
+                  <img
+                    class="w-6 h-6 rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+                    alt="profile picture"
+                  />
+                  <div
+                    class="text-lg font-semibold text-gray-900 dark:text-white"
+                  >
+                    Bonnie Green
+                  </div>
+                </div>
+                <div
+                  class="text-sm font-light text-left text-gray-500 dark:text-gray-400"
+                >
+                  CEO at Facebook
+                </div>
+              </figcaption>
+            </button>
+          </li>
+          <li class="md:mr-2 lg:mr-0" role="presentation">
+            <button
+              class="p-4 w-full rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              id="testimonial-3-tab"
+              type="button"
+              role="tab"
+              aria-controls="testimonial-3"
+              aria-selected="false"
+            >
+              <figcaption class="space-y-2">
+                <div class="flex space-x-2.5">
+                  <img
+                    class="w-6 h-6 rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+                    alt="profile picture"
+                  />
+                  <div
+                    class="text-lg font-semibold text-gray-900 dark:text-white"
+                  >
+                    Lana Byrd
+                  </div>
+                </div>
+                <div
+                  class="text-sm font-light text-left text-gray-500 dark:text-gray-400"
+                >
+                  CTO at Microsoft
+                </div>
+              </figcaption>
+            </button>
+          </li>
+        </ul>
+        <a
+          class="inline-flex items-center pl-4 text-sm font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700"
+          href="#"
+        >
+          View other 20 testimonials
+          <svg
+            class="ml-1 w-4 h-4"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div
+        class="col-span-2 mt-4 divide-y divide-gray-200 dark:divide-gray-700 lg:mt-0"
+      >
+        <div id="testimonialTabContent">
+          <div
+            class="p-4 rounded-lg"
+            id="testimonial-1"
+            role="tabpanel"
+            aria-labelledby="testimonial-1-tab"
+          >
+            <svg
+              class="mb-3 h-8 text-gray-500 dark:text-gray-600"
+              viewBox="0 0 24 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                fill="currentColor"
+              />
+            </svg>
+            <h3
+              class="mb-3 text-2xl font-bold tracking-tight leading-tight text-gray-900 dark:text-white"
+            >
+              It was a great experience!
+            </h3>
+            <p
+              class="mb-3 text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              Flowbite is just awesome. It contains tons of predesigned
+              components and pages starting from login screen to complex
+              dashboard. Perfect choice for your next SaaS application.
+            </p>
+            <p
+              class="text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              There is absolutely no doubt in my mind that without Flowbite, I
+              would not have been able to make the jump to Ueno, a digital
+              agency I started in 2014. The work I got through Flowbite made it
+              possible for me to have something to build on. We now have about
+              45 people on our team, a lot of whom we found and recruited
+              through Flowbite.
+            </p>
+          </div>
+          <div
+            class="hidden p-4 rounded-lg"
+            id="testimonial-2"
+            role="tabpanel"
+            aria-labelledby="testimonial-2-tab"
+          >
+            <svg
+              class="mb-3 h-8 text-gray-500 dark:text-gray-600"
+              viewBox="0 0 24 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                fill="currentColor"
+              />
+            </svg>
+            <h3
+              class="mb-3 text-2xl font-bold tracking-tight leading-tight text-gray-900 dark:text-white"
+            >
+              Best product!
+            </h3>
+            <p
+              class="mb-3 text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              Flowbite is just awesome. It contains tons of predesigned
+              components and pages starting from login screen to complex
+              dashboard. Perfect choice for your next SaaS application.
+            </p>
+            <p
+              class="text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              I would not have been able to make the jump to Ueno, a digital
+              agency I started in 2014. The work I got through Flowbite made it
+              possible for me to have something to build on. We now have about
+              45 people on our team, a lot of whom we found and recruited
+              through Flowbite.
+            </p>
+          </div>
+          <div
+            class="hidden p-4 rounded-lg"
+            id="testimonial-3"
+            role="tabpanel"
+            aria-labelledby="testimonial-3-tab"
+          >
+            <svg
+              class="mb-3 h-8 text-gray-500 dark:text-gray-600"
+              viewBox="0 0 24 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                fill="currentColor"
+              />
+            </svg>
+            <h3
+              class="mb-3 text-2xl font-bold tracking-tight leading-tight text-gray-900 dark:text-white"
+            >
+              Great design!
+            </h3>
+            <p
+              class="mb-3 text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              Flowbite is just awesome. It contains tons of predesigned
+              components and pages starting from login screen to complex
+              dashboard. Perfect choice for your next SaaS application.
+            </p>
+            <p
+              class="text-lg font-light leading-relaxed text-gray-500 dark:text-gray-400"
+            >
+              There is absolutely no doubt in my mind that without Flowbite, I
+              would not have been able to make the jump to Ueno, a digital
+              agency I started in 2014. The work I got through Flowbite made it
+              possible for me to have something to build on. We now have about
+              45 people on our team, a lot of whom we found and recruited
+              through Flowbite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="mx-auto mb-5 dark:text-white">
     <section class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
@@ -249,11 +497,11 @@
     </div>
   </section>
 
-  <section class="bg-white mb-5 dark:bg-gray-900">
+  <section class="bg-white dark:bg-gray-900 mb-5">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
         <h2
-          class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
         >
           Our Blog
         </h2>
@@ -262,130 +510,119 @@
           needs of your audience early and often.
         </p>
       </div>
-      <div class="grid gap-8 lg:grid-cols-2">
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <article
-          class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="p-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
         >
-          <div class="flex justify-between items-center mb-5 text-gray-500">
-            <span
-              class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800"
-            >
-              <svg
-                class="mr-1 w-3 h-3"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"
-                ></path>
-              </svg>
-              Tutorial
-            </span>
-            <span class="text-sm">14 days ago</span>
-          </div>
-          <h2
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          <a href="#">
+            <img
+              class="mb-5 rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/office-laptops.png"
+              alt="office laptop working"
+            />
+          </a>
+          <span
+            class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900"
+            >Article</span
           >
-            <a href="#">How to quickly deploy a static website</a>
+          <h2
+            class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            <a href="#">Our first office</a>
           </h2>
-          <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
-            Static websites are now used to bootstrap lots of websites and are
-            becoming the basis for a variety of tools that even influence both
-            web designers and developers influence both web designers and
-            developers.
+          <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
+            Over the past year, Volosoft has undergone many changes! After
+            months of preparation and some hard work, we moved to our new
+            office.
           </p>
-          <div class="flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-              <img
-                class="w-7 h-7 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                alt="Jese Leos avatar"
-              />
-              <span class="font-medium dark:text-white"> Jese Leos </span>
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-10 h-10 rounded-full"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+              alt="Jese Leos avatar"
+            />
+            <div class="font-medium dark:text-white">
+              <div>Jese Leos</div>
+              <div class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                Aug 15, 2021 · 16 min read
+              </div>
             </div>
-            <a
-              href="#"
-              class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-            >
-              Read more
-              <svg
-                class="ml-2 w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
           </div>
         </article>
         <article
-          class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="p-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
         >
-          <div class="flex justify-between items-center mb-5 text-gray-500">
-            <span
-              class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800"
-            >
-              <svg
-                class="mr-1 w-3 h-3"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                  clip-rule="evenodd"
-                ></path>
-                <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-              </svg>
-              Article
-            </span>
-            <span class="text-sm">14 days ago</span>
-          </div>
+          <a href="#">
+            <img
+              class="mb-5 rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/google-hq.png"
+              alt="Google HQ"
+            />
+          </a>
+          <span
+            class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900"
+            >Article</span
+          >
           <h2
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            <a href="#">We partnered up with Google</a>
+          </h2>
+          <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
+            Over the past year, Volosoft has undergone many changes! After
+            months of preparation and some hard work, we moved to our new
+            office.
+          </p>
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-10 h-10 rounded-full"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+              alt="Roberta Casas avatar"
+            />
+            <div class="font-medium dark:text-white">
+              <div>Roberta Casas</div>
+              <div class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                Aug 15, 2021 · 16 min read
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="p-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="mb-5 rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/office-laptops-2.png"
+              alt="office laptops"
+            />
+          </a>
+          <span
+            class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900"
+            >Article</span
+          >
+          <h2
+            class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
           >
             <a href="#">Our first project with React</a>
           </h2>
-          <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
-            Static websites are now used to bootstrap lots of websites and are
-            becoming the basis for a variety of tools that even influence both
-            web designers and developers influence both web designers and
-            developers.
+          <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
+            Over the past year, Volosoft has undergone many changes! After
+            months of preparation and some hard work, we moved to our new
+            office.
           </p>
-          <div class="flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-              <img
-                class="w-7 h-7 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                alt="Bonnie Green avatar"
-              />
-              <span class="font-medium dark:text-white"> Bonnie Green </span>
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-10 h-10 rounded-full"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png"
+              alt="Sofia McGuire avatar"
+            />
+            <div class="font-medium dark:text-white">
+              <div>Sofia McGuire</div>
+              <div class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                Aug 15, 2021 · 16 min read
+              </div>
             </div>
-            <a
-              href="#"
-              class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-            >
-              Read more
-              <svg
-                class="ml-2 w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
           </div>
         </article>
       </div>
@@ -461,10 +698,36 @@
   </section>
 </template>
 <script lang="ts" setup>
-const serviceCards = ref([
-  {
-    title: "title here",
-    subtitle: "subtitle here",
-  },
-]);
+import { Tabs } from "flowbite";
+onMounted(() => {
+  // create an array of objects with the id, trigger element (eg. button), and the content element
+  const tabElements = [
+    {
+      id: "testimonial-1",
+      triggerEl: document.querySelector("#testimonial-1-tab"),
+      targetEl: document.querySelector("#testimonial-1"),
+    },
+    {
+      id: "testimonial-2",
+      triggerEl: document.querySelector("#testimonial-2-tab"),
+      targetEl: document.querySelector("#testimonial-2"),
+    },
+    {
+      id: "testimonial-3",
+      triggerEl: document.querySelector("#testimonial-3-tab"),
+      targetEl: document.querySelector("#testimonial-3"),
+    },
+  ];
+
+  // options with default values
+  const options = {
+    defaultTabId: "settings",
+    activeClasses: "bg-gray-100 dark:bg-gray-700",
+    inactiveClasses: "bg-white dark:bg-gray-900",
+    onShow: () => {},
+  };
+
+  // @ts-ignore
+  const tabs = new Tabs(tabElements, options);
+});
 </script>

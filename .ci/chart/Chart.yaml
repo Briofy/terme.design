@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: 0.0.1
+name: briofy-terme
+version: 0.0.1
+description: A helm chart for terme.design project
+home: https://github.com/Briofy/terme.design
+maintainers:
+- name: Maryam Sanaei
+  url: https://github.com/maryam-sanaei
+sources:
+- https://github.com/Briofy/terme.design
+type: application
